@@ -1,0 +1,1 @@
+document.querySelectorAll('[data-page]').forEach(a=>a.addEventListener('click',()=>{document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));document.querySelectorAll('[data-page]').forEach(x=>x.classList.remove('active'));document.getElementById(a.dataset.page).classList.add('active');a.classList.add('active');window.scrollTo({top:0,behavior:'instant'});}));
