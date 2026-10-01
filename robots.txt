@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://simone-neuber.de/sitemap.xml
